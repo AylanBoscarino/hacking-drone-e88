@@ -93,9 +93,11 @@ The report includes:
 
 ## Flight Demo
 
-A short test-flight recording is included here:
+A short test-flight recording is included below:
 
-- [media/flight-demo.mp4](media/flight-demo.mp4)
+media/flight-demo.mp4
+
+Fallback link: [open video file](media/flight-demo.mp4)
 
 ## Safety Notes
 
