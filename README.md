@@ -4,6 +4,10 @@ Research-grade reimplementation of the WiFi control path for the Holy Stone HS17
 
 This repository contains a working Python prototype that can talk directly to the drone over WiFi, without the official mobile app, plus protocol notes collected during reverse engineering.
 
+## Drone
+
+![E88 drone](media/drone-photo.png)
+
 ## What Works
 
 - Direct UDP flight-control packets to `192.168.1.1:7099`
