@@ -78,6 +78,41 @@ Useful commands:
 - `ty+`, `ty-` - yaw trim
 - `tt+`, `tt-` - throttle trim
 
+Example terminal output:
+
+```text
+══════════════════════════════════════════════════
+  HS175D Drone Controller
+  Conecte-se ao WiFi do drone antes de começar!
+══════════════════════════════════════════════════
+╔══════════════════════════════════════════════════╗
+║  HS175D Drone Controller — Comandos              ║
+╠══════════════════════════════════════════════════╣
+║  t        — Takeoff (decolagem)                  ║
+║  l        — Land (pouso)                         ║
+║  e        — Emergency Stop                       ║
+║  g        — Calibrar giroscópio                  ║
+║  h        — Hover (todos eixos neutros)          ║
+║  w/s      — Pitch frente/trás                    ║
+║  a/d      — Roll esquerda/direita                ║
+║  q/r      — Yaw esquerda/direita                 ║
+║  u/j      — Throttle sobe/desce                  ║
+║  c        — Trocar câmera                        ║
+║  p        — Mostrar estado atual                 ║
+║  x        — Sair                                 ║
+║  ?        — Mostrar esta ajuda                   ║
+╠══════════════════════════════════════════════════╣
+║  TRIM (compensa drift, persiste entre comandos)  ║
+║  tr+/tr-  — Trim roll  (esq/dir)                 ║
+║  tp+/tp-  — Trim pitch (frente/trás)             ║
+║  ty+/ty-  — Trim yaw   (giro)                    ║
+║  tt+/tt-  — Trim throttle (sobe/desce)           ║
+║  tr0      — Reset todos os trims                 ║
+╚══════════════════════════════════════════════════╝
+[INFO] Controlador iniciado -> 192.168.1.1:7099
+[INFO] Relatorio de voo -> flight_reports/2026-04-13/flight_12-35-56.txt
+```
+
 ## Flight Reports
 
 Every run generates a text report under:
